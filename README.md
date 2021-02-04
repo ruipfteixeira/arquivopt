@@ -8,4 +8,12 @@ Este projeto consiste na criação de uma plataforma online onde, através da ut
 
 ### Recolha de Dados
 
-Todo o código relativo à recolha dos dados está disponível na pasta data. Os dados abertos relativoas a iniciativas parlamentares são retirados diretamente do site do Parlament em formato JSON. A API do arquivo.pt permite uma interação fácil e funcional com o conteúdo disponibilizado por esta plataforma.
+Todo o código relativo à recolha dos dados está disponível na pasta data.
+
+#### Parlamento
+
+Os dados abertos relativos a iniciativas parlamentares são retirados diretamente do site do Parlamento em formato JSON.
+
+#### Arquivo.pt
+
+A API do arquivo.pt permite uma interação fácil e funcional com o conteúdo disponibilizado por esta plataforma.
