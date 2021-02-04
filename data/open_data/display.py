@@ -19,4 +19,6 @@ def get_stats():
 def get_initiatives(ini_type):
     for child in root.iter('iniTipo'):
         if child.text == ini_type:
-            return child1.text
+            print(child.text)
+
+get_initiatives("S")
