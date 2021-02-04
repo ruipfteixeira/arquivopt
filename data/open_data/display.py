@@ -40,5 +40,3 @@ def get_initiatives(ini_type):
 def print_all():
    for i in iniciativas:
       print(i)
-
-get_initiatives_by_date("2018-09-15")
