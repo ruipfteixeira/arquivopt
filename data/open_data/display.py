@@ -21,4 +21,7 @@ def get_initiatives(ini_type):
         if child.text == ini_type:
             print(child.text)
 
-get_initiatives("S")
+# Print everything on the document
+def print_all():
+    for child in root.iter():
+        print(child.text)
