@@ -17,3 +17,12 @@ Os dados abertos relativos a iniciativas parlamentares são retirados diretament
 #### Arquivo.pt
 
 A API do arquivo.pt permite uma interação fácil e funcional com o conteúdo disponibilizado por esta plataforma.
+
+### Conselhos do André Restivo
+
+Framework Django.
+Converter para base de dados MongoDB.
+
+## Agradecimentos
+
+André Restivo
