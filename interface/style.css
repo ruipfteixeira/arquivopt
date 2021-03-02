@@ -1,0 +1,41 @@
+/* {} */
+
+#body {
+    display:grid;
+}
+
+/* Still have a margin to eliminate */
+#menu, #footer {
+    background-color:chocolate;
+    padding: 2rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu a, #footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu {
+    grid-row: 1;
+}
+
+#pesquisa {
+    grid-row: 2;
+}
+
+#diadehoje {
+    grid-row: 3;
+}
+
+#footer {
+    grid-row: 4;
+}
+
+/* Fazer com que todo o header seja uma imagem */
+#logo img {
+    width: 5rem;
+    height: auto;
+}
