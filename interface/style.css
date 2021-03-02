@@ -28,11 +28,21 @@ body {
     grid-row: 2;
     grid-column: 1 / span 2;
     text-align: center;
+    padding: 2rem;
 }
 
 #diadehoje {
     grid-row: 3;
     grid-column: 2;
+    text-transform: uppercase;
+    padding: 2rem;
+}
+
+#estasemana {
+    grid-row: 3;
+    grid-column: 1;
+    text-transform: uppercase;
+    padding: 2rem;
 }
 
 #footer {
@@ -44,4 +54,12 @@ body {
 #logo img {
     width: 5rem;
     height: auto;
+}
+
+#resultados, #sobrenos, #metodologia, #contactos, #mapadosite {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+    text-align: center;
+    padding: 2rem;
+    text-transform: uppercase;
 }

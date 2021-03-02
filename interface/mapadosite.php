@@ -6,14 +6,8 @@
         <title>PARLARQUIVO</title>
     </head>
     <body>
-        <div id="resultados">            
-            <?php
-
-            $pesquisa = $_POST['pesquisa'];
-
-            echo "<p> A mostrar resultados para: " . $pesquisa . "<p>"
-
-            ?>
+        <div id="sobrenos">
+            <h1>Mapa do site</h1>
         </div>       
     </body>
 </html>
