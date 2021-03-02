@@ -27,6 +27,7 @@ body {
 #pesquisa {
     grid-row: 2;
     grid-column: 1 / span 2;
+    text-align: center;
 }
 
 #diadehoje {
