@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<?php function draw_header() { ?>
+    <!DOCTYPE html>
+    <html lang="en-US">
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="styles/style.css">
@@ -18,3 +19,14 @@
         <a href="metodologia.php">Metodologia</a>
         <a href="contactos.php">Contactos</a>
     </div>
+<?php } ?>
+
+<?php function draw_footer() { ?>
+    <div id="footer">
+            <a href="mapadosite.php">Mapa do Site</a>
+            <a href="contactos.php">Contactos</a>
+        </div>
+    
+    </body>
+    </html>
+<?php } ?>

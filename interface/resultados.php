@@ -1,4 +1,10 @@
-<?php include "templates/tpl_header.php" ?>
+<?php
+
+    include "templates/tpl_common.php";
+
+    draw_header();
+    draw_footer();
+?>
 
 <div id="resultados">            
     <?php
@@ -8,6 +14,4 @@
     echo "<p> A mostrar resultados para: " . $pesquisa . "<p>"
 
     ?>
-</div>     
-
-<?php include "templates/tpl_footer.php" ?>
+</div>

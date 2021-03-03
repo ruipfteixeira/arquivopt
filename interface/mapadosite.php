@@ -1,7 +1,11 @@
-<?php include "templates/tpl_header.php" ?>
+<?php
+
+    include "templates/tpl_common.php";
+
+    draw_header();
+    draw_footer();
+?>
 
 <div id="sobrenos">
     <h1>Mapa do site</h1>
-</div>       
-
-<?php include "templates/tpl_footer.php" ?>
+</div>

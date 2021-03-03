@@ -1,7 +1,9 @@
 <?php
-    include "templates/tpl_header.php";
+    include "templates/tpl_common.php";
     include "estasemana.html";
     include "diadehoje.html";
     include "pesquisa.html";
-    include "templates/tpl_footer.php";
+
+    draw_header();
+    draw_footer();
 ?>
