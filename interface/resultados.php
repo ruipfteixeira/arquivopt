@@ -1,22 +1,13 @@
-<!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <link href="style.css" rel="stylesheet">
-        <title>PARLARQUIVO</title>
-    </head>
-    <body>
-        <div id="resultados">            
-            <?php
+<?php include "templates/tpl_header.php" ?>
 
-            $pesquisa = $_POST['pesquisa'];
+<div id="resultados">            
+    <?php
 
-            echo "<p> A mostrar resultados para: " . $pesquisa . "<p>"
+    $pesquisa = $_POST['pesquisa'];
 
-            ?>
-        </div>       
-    </body>
-</html>
+    echo "<p> A mostrar resultados para: " . $pesquisa . "<p>"
 
-<?php include "header.html" ?>
-<?php include "footer.html" ?>
+    ?>
+</div>     
+
+<?php include "templates/tpl_footer.php" ?>
