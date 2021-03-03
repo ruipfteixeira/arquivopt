@@ -2,7 +2,8 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
-        <link href="styles/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="https://kit.fontawesome.com/4878a389e9.js" crossorigin="anonymous"></script>
         <title>PARLARQUIVO</title>
     </head>
     <body>
