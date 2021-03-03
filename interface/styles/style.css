@@ -1,11 +1,8 @@
-/* {} */
-
 body {
     display:grid;
     grid-template-columns: 0.5fr 0.5fr;
 }
 
-/* Still have a margin to eliminate */
 #menu, #footer {
     background-color:chocolate;
     padding: 2rem;
@@ -50,7 +47,6 @@ body {
     grid-column: 1 / span 2;
 }
 
-/* Fazer com que todo o header seja uma imagem */
 #logo img {
     width: 5rem;
     height: auto;
